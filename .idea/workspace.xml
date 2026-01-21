@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f67b82d9-79d9-47fa-8fb6-5aceb1603ebc" name="Changes" comment="measurements_med inspection and fixes">
-      <change afterPath="$PROJECT_DIR$/code/src/load_clean.py" afterDir="false" />
+    <list default="true" id="f67b82d9-79d9-47fa-8fb6-5aceb1603ebc" name="Changes" comment="created cleaning script">
+      <change afterPath="$PROJECT_DIR$/code/Measurement_lab_Inspection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Inspection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/Inspection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Inspection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/Measurement_meds_Inspection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/DataWrangling.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/DataWrangling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/load_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/load_clean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned_training/measurement_meds_train_cleaned.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -35,6 +39,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.DataWrangling.executor": "Run",
     "Python.loadData.executor": "Run",
+    "Python.load_clean.executor": "Run",
     "Python.load_transform.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -57,10 +62,39 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="load_clean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sepsis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/src/load_clean.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.load_clean" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
         <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
@@ -76,7 +110,8 @@
       <workItem from="1766704692086" duration="4731000" />
       <workItem from="1766871142422" duration="5443000" />
       <workItem from="1766876599334" duration="9952000" />
-      <workItem from="1766887069537" duration="12062000" />
+      <workItem from="1766887069537" duration="21668000" />
+      <workItem from="1769027411606" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <option name="closed" value="true" />
@@ -94,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766899687822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created cleaning script">
+      <option name="closed" value="true" />
+      <created>1766901515457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766901515457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="measurements_med inspection and fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="measurements_med inspection and fixes" />
+    <MESSAGE value="created cleaning script" />
+    <option name="LAST_COMMIT_MESSAGE" value="created cleaning script" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Sepsis$load_transform.coverage" NAME="load_transform Coverage Results" MODIFIED="1766901367664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/src" />

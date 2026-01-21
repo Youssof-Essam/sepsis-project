@@ -81,3 +81,24 @@ def oxy_sat_fixer(oxy_sat):
     if new_oxy_sat < 20:
         return None
     return new_oxy_sat
+def phosphate_fixer(phosphate):
+    new_phosphate = phosphate
+    while new_phosphate >3:
+        new_phosphate /= 10
+    return new_phosphate
+def potassium_fixer(potassium):
+    while potassium >6:
+        potassium /= 10
+
+def value_fixer(value,multiple_limit,abs_max = None,abs_min = None):
+    new_value = value
+    while new_value >multiple_limit:
+        new_value /= 10
+
+    if abs_max:
+        if new_value > abs_max:
+            return None
+    if abs_min:
+        if new_value < abs_min:
+            return None
+    return new_value
