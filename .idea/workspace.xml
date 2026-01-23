@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f67b82d9-79d9-47fa-8fb6-5aceb1603ebc" name="Changes" comment=".." />
+    <list default="true" id="f67b82d9-79d9-47fa-8fb6-5aceb1603ebc" name="Changes" comment="..">
+      <change afterPath="$PROJECT_DIR$/code/Sepsis_Inspection.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/hmm_experimentation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/hmm_inspections.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/load_split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/train_hmm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/DataWrangling.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/DataWrangling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/load_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/load_clean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned_training/measurement_lab.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned_training/measurement_meds.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/SepsisLabel_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/SepsisLabel_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/devices_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/devices_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/drugsexposure_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/drugsexposure_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/measurement_lab_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/measurement_lab_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/measurement_meds_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/measurement_meds_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/measurement_observation_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/measurement_observation_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/observation_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/observation_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/person_demographics_episode_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/person_demographics_episode_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testing_data/proceduresoccurrences_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/proceduresoccurrences_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/SepsisLabel_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/SepsisLabel_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/devices_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/devices_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/drugsexposure_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/drugsexposure_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/measurement_lab_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/measurement_lab_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/measurement_meds_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/measurement_meds_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/measurement_observation_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/measurement_observation_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/observation_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/observation_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/person_demographics_episode_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/person_demographics_episode_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/proceduresoccurrences_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/proceduresoccurrences_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,26 +57,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.DataWrangling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loadData.executor&quot;: &quot;Run&quot;,
-    &quot;Python.load_clean.executor&quot;: &quot;Run&quot;,
-    &quot;Python.load_transform.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/youssof/Desktop/Sepsis&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.DataWrangling.executor": "Run",
+    "Python.loadData.executor": "Run",
+    "Python.load_clean.executor": "Run",
+    "Python.load_split.executor": "Run",
+    "Python.load_transform.executor": "Run",
+    "Python.train_hmm.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/youssof/Desktop/Sepsis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code" />

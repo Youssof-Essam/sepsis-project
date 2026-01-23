@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 def load_data(path:str):
     files = os.listdir(path)
@@ -22,6 +23,13 @@ def load_data(path:str):
     data_dict["person_demographics_episode"] = data_dict["person_demographics_episode"].sort_values(by = ["person_id"]).reset_index(drop = False)
 
     return data_dict
+def get_sepsis_labels(path:str):
+    sepsis_labels = pd.read_csv(path)
+    patients = sepsis_labels.groupby("person_id")["SepsisLabel"].max().reset_index()
+    return patients
+def split_stratified(sepsis_labels:pd.DataFrame, size_test:float, r_state:int):
+    train, test = train_test_split(sepsis_labels, test_size = size_test, random_state = r_state,stratify=sepsis_labels["SepsisLabel"])
+    return train, test
 
 def last_observed_imputer(df:pd.DataFrame,column:str):
     person_ids = df["person_id"].unique()

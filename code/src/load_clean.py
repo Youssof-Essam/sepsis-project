@@ -73,4 +73,4 @@ if __name__ == "__main__":
 
 
     for dataframe in data_imputed.keys():
-        data_imputed[dataframe].to_csv(f"{PROJECT_ROOT}/data/cleaned_training/{dataframe}.csv")
+        data_imputed[dataframe].reset_index(drop = True).drop("index",axis = 1).to_csv(f"{PROJECT_ROOT}/data/cleaned_training/{dataframe}.csv",index=False)
