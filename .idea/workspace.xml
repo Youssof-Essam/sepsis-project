@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f67b82d9-79d9-47fa-8fb6-5aceb1603ebc" name="Changes" comment="..">
-      <change afterPath="$PROJECT_DIR$/code/Sepsis_Inspection.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/hmm_experimentation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/hmm_inspections.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/load_split.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/train_hmm.py" afterDir="false" />
+    <list default="true" id="f67b82d9-79d9-47fa-8fb6-5aceb1603ebc" name="Changes" comment="restructured folders, and created hmm training scripts, experiments, and post hoc inspections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/DataWrangling.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/DataWrangling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/load_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/load_clean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned_training/measurement_lab.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cleaned_training/measurement_meds.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/SepsisLabel_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/SepsisLabel_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/devices_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/devices_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/drugsexposure_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/drugsexposure_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/measurement_lab_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/measurement_lab_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/measurement_meds_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/measurement_meds_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/measurement_observation_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/measurement_observation_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/observation_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/observation_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/person_demographics_episode_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/person_demographics_episode_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testing_data/proceduresoccurrences_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/submission_data/proceduresoccurrences_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/SepsisLabel_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/SepsisLabel_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/devices_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/devices_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/drugsexposure_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/drugsexposure_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/measurement_lab_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/measurement_lab_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/measurement_meds_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/measurement_meds_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/measurement_observation_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/measurement_observation_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/observation_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/observation_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/person_demographics_episode_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/person_demographics_episode_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/proceduresoccurrences_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_data/proceduresoccurrences_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769033030005</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="restructured folders, and created hmm training scripts, experiments, and post hoc inspections">
+      <option name="closed" value="true" />
+      <created>1769167989413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769167989413</updated>
+    </task>
+    <task id="LOCAL-00006" summary="restructured folders, and created hmm training scripts, experiments, and post hoc inspections">
+      <option name="closed" value="true" />
+      <created>1769168089475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769168089475</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +179,8 @@
     <MESSAGE value="measurements_med inspection and fixes" />
     <MESSAGE value="created cleaning script" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="restructured folders, and created hmm training scripts, experiments, and post hoc inspections" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructured folders, and created hmm training scripts, experiments, and post hoc inspections" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Sepsis$load_transform.coverage" NAME="load_transform Coverage Results" MODIFIED="1766901367664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/src" />
